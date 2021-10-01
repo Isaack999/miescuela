@@ -1,0 +1,67 @@
+@charset "utf-8";
+footer{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+
+}
+footer .contenedor{
+    height: auto;
+    display: table;
+
+
+}
+footer .contenedor .descargas{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #333;
+    margin-bottom: 10px;
+}
+footer .contenedor .descargas a{
+    text-decoration: none;
+    margin:0px 10px;
+    color: #006;
+}
+footer .contenedor .descargas a:hover{
+    text-decoration: underline;
+
+}
+footer .contenedor .datos{
+    width: 80%;
+    float: left;
+    text-align: left;
+}
+footer .contenedor .datos p{
+    font-size: 13px;
+}
+footer .contenedor .sociales{
+width: 20%;
+float: right;
+text-align:center;
+font-size: 15px;
+}
+footer .contenedor .sociales a{
+    text-decoration: none;
+    font-size:25px;
+
+}
+@media (min-width:1024px){
+    footer .contenedor .descargas a{
+        font-size:20px;
+    }
+    footer .contenedor .datos p{
+        font-size: 18px;
+    }
+    footer .contenedor .sociales a{
+       
+        font-size:45px;
+    
+    }
+    footer .contenedor .sociales p{
+       
+        font-size:20px;
+    
+    }
+
+}

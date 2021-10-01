@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('header.css');
+
+
+
+
+
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main{
+    margin-top: 50px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+    
+
+}
+main section {
+    
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    width:40%;
+    margin-top: 50px;
+    
+    border-bottom-width: 1px solid 
+}
+main section form{ 
+    background-color:rgb(255, 255, 255);
+    margin: auto;
+    width: 100%;
+    max-width: 500px;
+   
+    padding: 20px;
+    border-top-style: solid;
+    border-top-color:rgb(8, 8, 124);
+    
+  
+}
+main section form input{
+    width: 100%;
+    border-radius: 3px;
+    outline: none;
+    background: none;
+    border: 1px solid rgba(27, 27, 27, 0.411);
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+}
+
+main section form button{
+    margin: auto;
+    font-size: 25px;
+    width: 98%;
+    margin: 10px 0px;
+cursor: pointer;
+border: none;
+background-color: #fff;
+font-weight: bold;
+}
+main section form button:hover{
+    background: rgba(59, 56, 56, 0.7);
+}
+
+.contenedor{
+    width:98%;
+    margin: auto;
+}
+
+@media (min-width:1024px){
+    .contenedor{
+        width:1000px;
+     
+    }
+   
+    
+    
+}
+@media (min-width:768px) and (max-width:1023px){
+    main section {
+
+       
+        width:60%;
+       
+    }
+}
+
+@media (min-width:480px) and (max-width:767px){
+    main section {
+
+       
+        width:100%;
+       
+    } 
+}
